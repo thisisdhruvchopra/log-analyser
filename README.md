@@ -1,4 +1,4 @@
-# 🛡️ BSP HTTP Honeypot Log Analyser
+# HTTP Honeypot Log Analyser
 
 A modular Python-based threat intelligence toolkit for analysing HTTP honeypot logs. Built for real-world deployment as part of a deception technology engagement at **Bhilai Steel Plant (SAIL BSP)** — a critical industrial infrastructure client.
 
@@ -6,7 +6,7 @@ Each script is standalone and targets a specific aspect of attacker behaviour: e
 
 ---
 
-## 📁 Module Overview
+## Module Overview
 
 | Script | Purpose |
 |---|---|
@@ -21,7 +21,7 @@ Each script is standalone and targets a specific aspect of attacker behaviour: e
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.8+
 - [`maxminddb`](https://pypi.org/project/maxminddb/) — for GeoIP lookups
@@ -34,7 +34,7 @@ pip install maxminddb
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Each script is run independently and prompts for input interactively.
 
@@ -105,7 +105,7 @@ python summary.py
 
 ---
 
-## 📊 Sample Summary Output
+## Sample Summary Output
 
 ```
 === BSP Aggregated Attack Summary ===
@@ -125,7 +125,7 @@ Most Targeted Endpoint
 
 ---
 
-## 🔍 Attack Detection Logic
+## Attack Detection Logic
 
 All scripts share a consistent regex-based detection engine. A log line is classified as an attack if it matches any of the following patterns:
 
@@ -139,7 +139,7 @@ ANSI escape sequences are stripped from all log lines before processing to handl
 
 ---
 
-## 📌 Notes
+## Notes
 
 - Logs are expected in IST (UTC+5:30) timezone for date-based slicing.
 - The `GeoLite2-Country.mmdb` database must be present in the working directory for `geo_analysis.py` to function.
@@ -148,7 +148,7 @@ ANSI escape sequences are stripped from all log lines before processing to handl
 
 ---
 
-## 👤 Author
+## Author
 
 **Dhruv Chopra**  
 Associate – Deception Technology, C3iHub @ IIT Kanpur  
