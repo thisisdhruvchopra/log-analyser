@@ -1,6 +1,6 @@
 # HTTP Honeypot Log Analyser
 
-A modular Python-based threat intelligence toolkit for analysing HTTP honeypot logs. Built for real-world deployment as part of a deception technology engagement at **Bhilai Steel Plant (SAIL BSP)** — a critical industrial infrastructure client.
+A modular Python-based threat intelligence toolkit for analysing HTTP honeypot logs. Built for real-world deployment as part of a deception technology engagement at a critical industrial infrastructure client.
 
 Each script is standalone and targets a specific aspect of attacker behaviour: event classification, credential harvesting, geolocation, endpoint targeting, and temporal analysis.
 
